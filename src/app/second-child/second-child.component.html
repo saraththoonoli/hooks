@@ -1,0 +1,14 @@
+
+name:{{test.names}} <br>
+age:{{test.age}} <br>
+place:{{test.place}}
+
+
+<div class="parent-container">
+    <h1>Parent Component Only for ngContent </h1>
+    <app-child>
+        <p>This content is projected from the parent component to the child component.</p>
+        <p>parent component</p>
+        <button (click)="onButtonClick()">Click me!</button>
+    </app-child>
+  </div>
